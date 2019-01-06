@@ -17,20 +17,20 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
+        android:hint="@string/name"
         android:id="@+id/name_box"
         android:layout_marginBottom="24dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toppings"
+        android:text="@string/toppings"
         android:textAllCaps="true"/>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Whipped cream"
+        android:text="@string/whippedcream"
         android:id="@+id/iswhipped"
         android:padding="24dp"
         android:textSize="16sp"/>
@@ -38,7 +38,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chocolate"
+        android:text="@string/chocolate"
         android:id="@+id/chocolate_checkbox"
         android:padding="24dp"
         android:textSize="16sp"/>
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="16dp"
-        android:text="Quantity"
+        android:text="@string/quantity"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -86,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="submitOrder"
-        android:text="Order" />
+        android:text="@string/order" />
 
 </LinearLayout>
 </ScrollView>
